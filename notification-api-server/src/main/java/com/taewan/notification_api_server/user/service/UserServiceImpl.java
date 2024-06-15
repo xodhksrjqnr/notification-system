@@ -32,7 +32,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void withdraw(WithdrawInfoDto dto) {
-        usersRepository.delete(DtoConvertor.toUser(dto));
+        usersRepository.deleteByUserIdAndEmail(dto.getUserId(), dto.getEmail());
     }
 
     @Override
