@@ -9,6 +9,7 @@ public class EntityConvertor {
         SearchOneResultDto dto = new SearchOneResultDto();
         dto.setId(entity.getId());
         dto.setUserId(entity.getUserId());
+        dto.setName(entity.getName());
         dto.setPassword(entity.getPassword());
         dto.setPhoneNumber(entity.getPhoneNumber());
         dto.setEmail(entity.getEmail());
