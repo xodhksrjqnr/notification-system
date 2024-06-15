@@ -1,4 +1,4 @@
-package com.taewan.notification_api_server;
+package com.taewan.notification_api_server.common;
 
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;

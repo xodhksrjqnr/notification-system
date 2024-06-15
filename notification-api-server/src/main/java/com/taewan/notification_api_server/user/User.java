@@ -1,6 +1,6 @@
 package com.taewan.notification_api_server.user;
 
-import com.taewan.notification_api_server.BaseTime;
+import com.taewan.notification_api_server.common.BaseTime;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;

@@ -1,7 +1,7 @@
 package com.taewan.notification_api_server.tool.convertor;
 
 import com.taewan.notification_api_server.user.User;
-import com.taewan.notification_api_server.user.dto.SearchOneResultDto;
+import com.taewan.notification_api_server.user.dto.response.SearchOneResultDto;
 
 public class EntityConvertor {
 

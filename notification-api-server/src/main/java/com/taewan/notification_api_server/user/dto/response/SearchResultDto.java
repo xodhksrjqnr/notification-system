@@ -1,4 +1,6 @@
-package com.taewan.notification_api_server.user.dto;
+package com.taewan.notification_api_server.user.dto.response;
+
+import com.taewan.notification_api_server.user.dto.response.SearchOneResultDto;
 
 import java.util.List;
 
