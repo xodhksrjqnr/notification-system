@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/users")
-@Transactional
 public class UserController {
 
     UserService userService;
@@ -24,7 +23,6 @@ public class UserController {
     }
 
     @GetMapping
-    @Transactional(readOnly = true)
     public SearchResultDto requestSearchAll() {
         return userService.searchAll();
     }

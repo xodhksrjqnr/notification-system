@@ -9,11 +9,13 @@ import com.taewan.notification_api_server.user.dto.WithdrawInfoDto;
 import com.taewan.notification_api_server.user.repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@Transactional
 public class UserServiceImpl implements UserService {
 
     final UsersRepository usersRepository;
@@ -34,6 +36,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public SearchResultDto searchAll() {
         List<SearchOneResultDto> dtos = usersRepository
                 .findAll()
