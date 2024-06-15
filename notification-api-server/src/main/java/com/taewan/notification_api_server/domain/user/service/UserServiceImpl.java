@@ -1,12 +1,12 @@
-package com.taewan.notification_api_server.user.service;
+package com.taewan.notification_api_server.domain.user.service;
 
+import com.taewan.notification_api_server.domain.user.dto.request.JoinInfoDto;
 import com.taewan.notification_api_server.tool.convertor.DtoConvertor;
 import com.taewan.notification_api_server.tool.convertor.EntityConvertor;
-import com.taewan.notification_api_server.user.dto.request.JoinInfoDto;
-import com.taewan.notification_api_server.user.dto.response.SearchOneResultDto;
-import com.taewan.notification_api_server.user.dto.response.SearchResultDto;
-import com.taewan.notification_api_server.user.dto.request.WithdrawInfoDto;
-import com.taewan.notification_api_server.user.repository.UsersRepository;
+import com.taewan.notification_api_server.domain.user.dto.response.SearchOneResultDto;
+import com.taewan.notification_api_server.domain.user.dto.response.SearchResultDto;
+import com.taewan.notification_api_server.domain.user.dto.request.WithdrawInfoDto;
+import com.taewan.notification_api_server.domain.user.repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

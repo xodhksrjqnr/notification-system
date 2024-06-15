@@ -1,6 +1,6 @@
-package com.taewan.notification_api_server.user.repository;
+package com.taewan.notification_api_server.domain.user.repository;
 
-import com.taewan.notification_api_server.user.User;
+import com.taewan.notification_api_server.domain.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

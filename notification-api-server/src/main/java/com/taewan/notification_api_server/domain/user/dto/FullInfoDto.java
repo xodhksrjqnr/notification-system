@@ -1,4 +1,4 @@
-package com.taewan.notification_api_server.user.dto;
+package com.taewan.notification_api_server.domain.user.dto;
 
 abstract public class FullInfoDto {
 

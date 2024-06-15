@@ -1,4 +1,4 @@
-package com.taewan.notification_api_server.user;
+package com.taewan.notification_api_server.domain.user;
 
 import com.taewan.notification_api_server.common.BaseTime;
 import jakarta.persistence.*;

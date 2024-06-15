@@ -1,7 +1,7 @@
 package com.taewan.notification_api_server.tool.convertor;
 
-import com.taewan.notification_api_server.user.User;
-import com.taewan.notification_api_server.user.dto.FullInfoDto;
+import com.taewan.notification_api_server.domain.user.User;
+import com.taewan.notification_api_server.domain.user.dto.FullInfoDto;
 
 public class DtoConvertor {
 

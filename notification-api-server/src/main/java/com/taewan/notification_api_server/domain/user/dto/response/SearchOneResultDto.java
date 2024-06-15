@@ -1,6 +1,6 @@
-package com.taewan.notification_api_server.user.dto.response;
+package com.taewan.notification_api_server.domain.user.dto.response;
 
-import com.taewan.notification_api_server.user.dto.FullInfoDto;
+import com.taewan.notification_api_server.domain.user.dto.FullInfoDto;
 
 import java.time.LocalDateTime;
 

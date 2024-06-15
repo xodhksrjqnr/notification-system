@@ -1,9 +1,9 @@
 package com.taewan.notification_api_server.api;
 
-import com.taewan.notification_api_server.user.dto.request.JoinInfoDto;
-import com.taewan.notification_api_server.user.dto.response.SearchResultDto;
-import com.taewan.notification_api_server.user.dto.request.WithdrawInfoDto;
-import com.taewan.notification_api_server.user.service.UserService;
+import com.taewan.notification_api_server.domain.user.dto.request.JoinInfoDto;
+import com.taewan.notification_api_server.domain.user.dto.response.SearchResultDto;
+import com.taewan.notification_api_server.domain.user.dto.request.WithdrawInfoDto;
+import com.taewan.notification_api_server.domain.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
